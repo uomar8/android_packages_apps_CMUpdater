@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+Copyright (C) 2012-2014 The CyanogenMod Project
+
+
+Licensed under the GNU GPLv2 license
+
+
+The text of the license can be found in the LICENSE file
+
+or at https://www.gnu.org/licenses/gpl-2.0.txt
+
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General strings -->
+
+    <string name="app_name">تحديث cm</string>
+
+    <string name="display_name">تحديثات</string>
+
+    <string name="unknown">مجهول</string>
+
+
+    <!-- Menu and dialog box strings -->
+
+    <string name="menu_refresh">تحديث</string>
+
+    <string name="menu_delete">حذف</string>
+
+    <string name="menu_delete_all">حذف التنزيلات</string>
+
+    <string name="menu_system_info">معلومات النظام</string>
+
+
+    <string name="dialog_ok">حسنا</string>
+
+    <string name="dialog_cancel">ألغاء</string>
+
+    <string name="dialog_yes">نعم</string>
+
+    <string name="dialog_no">لا</string>
+
+    <string name="dialog_update">التحديث</string>
+
+    <string name="dialog_close">إغلاق</string>
+
+
+    <!-- Settings strings -->
+
+    <string name="available_updates_title">التحديثات المتوفره</string>
+
+    <string name="no_available_updates_intro">أخر فحص لم يجد اي تحديث. لي البحث اليدوي عن التحديثات, أستخدم زر التحديث.</string>
+    <string name="new_update_summary">جديد</string>
+
+    <string name="downloaded_update_summary">تنزيل</string>
+
+    <string name="installed_update_summary">تثبت</string>
+
+    <string name="backup_rom_title">صنع نسخة أحتياطيه</string>
+
+    <string name="backup_rom_summary"> النسخ الاحتياطي الروم (النظام) الحالية قبل التحديث
+
+
+</string>
+
+
+    <string name="update_check_title"> التحقق من وجود تحديثات </string>
+
+    <string name="check_manual">يدوي</string>
+
+    <string name="check_on_boot">في كل بدأ تشغيل</string>
+
+    <string name="check_twice_daily">مرتين يومين</string>
+
+    <string name="check_daily">يومين</string>
+
+    <string name="check_weekly">أسبوعيا</string>
+
+    <string name="check_bi_weekly">نصف أسبوع</string>
+
+    <string name="check_monthly">شهريا</string>
+
+
+    <string name="update_type_title"> أنواع التحديث </string>
+
+    <string name="type_all">جميع النسخ (مستقرة فقط)</string>
+
+    <string name="type_all_incl_nightly">جميع النسخ (تتضمن. الليلية)</string>
+
+    <string name="type_new">نسخ جديدة (مستقرة فقط)</string>
+
+    <string name="type_new_incl_nightly">نسخ جديدة (تتضمن. الليليه)</string>
+
+    <string name="nightly_alert"> انت اخترت ان تتضمن التحديثات الليلية في هذه القائمة . These are هذه غير معتمدة ويجب استخدامها بحذر .</string>
+
+    <string name="nightly_alert_title">تحذير</string>
+
+
+    <!-- Update checking -->
+
+    <string name="checking_for_updates"> التحقق من وجود تحديثات </string>
+
+    <string name="no_updates_found">لا يوجد تحديث جديد</string>
+
+    <string name="update_check_failed"> فشل فحص التحديث. الرجاء التحقق من اتصال الإنترنت الخاص بك وحاول مرة أخرى في وقت لاحق .</string>
+
+    <string name="not_new_updates_found_ticker"> تتوفر تحديثات جديدة </string>
+
+    <string name="not_new_updates_found_title"> تحديثات جديدة </string>
+
+    <string name="not_action_download">تنزيل</string>
+
+    <string name="data_connection_required">A data connection is required.</string>
+
+
+    <!-- Downloads -->
+
+    <string name="confirm_download_cancelation_dialog_title">ألغاء التنزيل</string>
+
+    <string name="confirm_download_cancelation_dialog_message"> إلغاء التحميل الحالية؟ </string>
+
+    <string name="download_cancelled">تم ألغاء التنزيل</string>
+
+    <string name="download_already_running"> التحميل قيد التشغيل </string>
+    <string name="unable_to_download_file"> غير قادر على تحميل ملف التحديث </string>
+
+    <string name="download_not_found">لايوجد التحميل</string>
+
+    <string name="not_download_success">تنزيل التحديث نجح</string>
+
+    <string name="not_download_failure">تنزيل التحديث فشل</string>
+
+    <string name="not_action_install_update">أعادة التشغيل و التثبيت</string>
+
+    <string name="not_download_install_notice">التحديث <xliff:g id="filename">%s</xliff:g> نجح تنزيله. عند لمس التحديث\' أعادة التشغيل و التثبيت \', الجهاز سوف يعيد التشغيل لي تثبيت التحديث.\n\nملاحضة: يتطلب وجود Recovery متوافق لي التثبيت ليعمل تلقائيا.</string>
+
+
+    <!-- MD5 related strings -->
+
+    <string name="apply_existing_update_md5error_message">خطاء. MD5 عدم تطابق المجموع الاختباري </string>
+
+    <string name="md5_check_cancelled">MD5 تم إلغاء الاختيار
+
+
+</string>
+
+    <string name="md5_verification_failed">MD5 التحقق فشل</string>
+
+
+    <!-- Apply update strings -->
+
+    <string name="apply_update_dialog_title"> تطبيق التحديث </string>
+
+    <string name="apply_update_dialog_text"> كنت على وشك الترقية إلى <xliff:g id="filename">%s</xliff:g>.\n\n إذا ضغطت تحديث، سيقوم الجهاز بإعادة تشغيل نفسه في وضع recovery لتثبيت التحديث. \n\nملاحضة: تتطلب هذه الميزة recovery متوافق أو سوف تحتاج إلى تثبيت التحديثات يدويا. .</string>
+
+    <string name="apply_trying_to_get_root_access"> محاولة للحصول root لإعادة تشغيل في وضع recovery </string>
+
+    <string name="apply_unable_to_reboot_toast"> غير قادر على إعادة التشغيل الى وضع recovery </string>
+
+
+    <!-- deleting -->
+
+    <string name="confirm_delete_dialog_title">مسح اىملف</string>
+
+    <string name="confirm_delete_dialog_message">مسح ملف التحديث المختار?</string>
+
+    <string name="confirm_delete_all_dialog_message">ميح جميع ملقات التحديث?</string>
+
+    <string name="delete_single_update_success_message">التحديث <xliff:g id="filename">%s</xliff:g> مسح</string>
+
+    <string name="delete_updates_failure_message"> كان هناك خطأ حذف ملف التحديث </string>
+
+    <string name="delete_updates_noFolder_message">مجلد التحديث لم يوجد</string>
+
+    <string name="delete_updates_success_message">جميع التنزيلات مسحت</string>
+
+
+    <!-- System info strings -->
+
+    <string name="sysinfo_device">الجهاز:</string>
+
+    <string name="sysinfo_running">يعمل:</string>
+
+    <string name="sysinfo_last_check">أخر فحص:</string>
+
+
+    <!-- changelog strings -->
+
+    <string name="no_changelog_alert">لا تغيرات متوفره</string>
+
+    <string name="failed_to_load_changelog"> غير قادر على تحميل التغيرات </string>
+
+    <string name="changelog_dialog_title">التغيرات</string>
+
+    <string name="loading_changelog">تحميل\u2026</string>
+
+
+    <!-- DashClock extension strings -->
+
+    <string name="extension_label"> تحديثات CyanogenMod </string>
+
+    <string name="extension_description"> يعرض عدد من التحديثات الجديدة المتاحة. </string>
+
+</resources>
